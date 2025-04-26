@@ -1,3 +1,6 @@
+import sys
+print(sys.path)
+
 from account.user import User
 from account.bank_account import BankAccount, SavingsAccount, CurrentAccount, StudentAccount
 
